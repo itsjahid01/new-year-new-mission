@@ -1,0 +1,182 @@
+
+/* Mission Started */
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.primary-btn{
+    background: #690d22;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #f0f3f5;
+    width: 130px;
+}
+.main,.footer-container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* header section */
+
+.banner{
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    
+}
+.banner-text{
+    text-align: right;
+    padding: 100px;
+    margin-left: 600px;
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px; 
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+/* failure-section */
+
+.failure-section{
+    display: flex;
+    justify-content: center; 
+    gap: 90px;
+    padding: 80px;
+}
+.failure{
+    margin-top: 250px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+
+}
+.failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+    }
+.failure-point{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+   
+}
+span {
+    color: #166ad8;
+}
+p,span {
+    line-height: 25px;
+    vertical-align: middle;
+    text-align: left
+}
+
+/* plans section */
+
+.plans-section{
+    padding: 130px;
+    text-align: center;
+}
+.plans-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plans-items{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+.plans-items-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #151414;
+}
+.plans-items-description{
+    font-weight: 300;
+    font-size: 20px;
+    color: #737272;
+    text-align: center;
+}
+
+/* small-banner */
+
+.small-banner-container{
+    background-image: linear-gradient(to right, rgba(96, 16, 100, 0.932), rgba(164, 64, 184, 0)),url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+    width: 80%;
+    height: 50px;
+    padding: 130px;
+    margin-bottom: 130px;
+      
+}
+
+.small-banner-description{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+
+}
+
+/* footer section */
+
+.footer-section{
+    background: #151414;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 130px 230px ;
+    color: white;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+   
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.social-icons{
+    padding: 5px;
+}
+.subscribe{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.email{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+  /* The End */
